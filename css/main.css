@@ -5,6 +5,12 @@
         clear:both;
     }
 
+
+    #focus>div{
+    display: block;
+        height: 300px;
+    }
+
     .hack-right{
         padding: 0 12px;
         margin-top: 22px;
@@ -55,6 +61,11 @@ float: right;
             float: left;
         }
 
+
+        .captch {
+            float: right;
+        }
+
     }
 
 /*mobile end*/
@@ -79,4 +90,10 @@ float: right;
 #hacker-search{
 color: red;
 width: 333px;
+}
+
+.hacker-login{
+ margin-top: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    height: 600px;
 }

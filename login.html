@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/layui/css/layui.mobile.css" >
+<link rel="stylesheet" href="css/layui/css/layui.css" media="all">
+
+<link rel="stylesheet" href="css/main.css">
+<body>
+
+
+
+<div class="navbar">
+
+
+    <ul class="layui-nav layui-bg-blue">
+        <label for="to-mune" class="to-mune">菜单</label>
+
+        <input type="checkbox" class="to-mune " id="to-mune" style="display: none">
+
+
+        <li class="layui-nav-item">
+            <a href="">主页</a>
+        </li>
+        <li class="layui-nav-item">
+            <a href="">标签</a>
+
+            <dl class="layui-nav-child">
+                <dd><a href="javascript:;">php是世界最好的</a></dd>
+                <dd><a href="javascript:;">c</a></dd>
+                <dd><a href="javascript:;">黑客</a></dd>
+            </dl>
+
+        </li>
+        <li class="layui-nav-item">
+            <a href=""><img src="img/avatar.jpg" class="layui-nav-img">我</a>
+            <dl class="layui-nav-child">
+                <dd><a href="javascript:;">个人中心</a></dd>
+                <dd><a href="javascript:;">退了</a></dd>
+            </dl>
+        </li>
+
+        <li class="layui-nav-item">
+            <a href="">消息</a>
+        </li>
+
+
+        <li class="layui-nav-item">
+            <a href="">搜索</a>
+            <dl class="layui-nav-child">
+                <dd>
+                    <form class="layui-form layui-form-pane" action="">
+
+                        <input type="text" name="title" required lay-verify="required" placeholder="随便搜点什么吧" autocomplete="off" class="layui-input" id="hacker-search">
+                        <button class="layui-btn" style="width: 100%">搜索</button>
+                    </form>
+                </dd>
+
+
+            </dl>
+        </li>
+
+
+
+
+
+
+        <li class="layui-nav-item login" >
+            <a href="">登录</a>
+        </li>
+
+
+
+    </ul>
+
+
+
+
+
+
+    <!---login start-->
+
+
+    <div class="layui-container ">
+
+        <div class="layui-row ">
+
+
+
+            <div class="layui-col-md9">
+
+                <div class="hacker-login">
+
+                    <form class="layui-form" action="">
+
+<div class="layui-colla-title">
+    登录
+</div>
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">账号</label>
+                            <div class="layui-input-inline">
+                                <input type="text" name="title" required  lay-verify="required" placeholder="请输入标题" autocomplete="off" class="layui-input">
+                            </div>
+
+                            <div class="layui-form-mid layui-word-aux">
+                                <a href="" class=""> 还没有账号?</a>
+                            </div>
+
+                        </div>
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">密码框</label>
+                            <div class="layui-input-inline">
+                                <input type="password" name="password" required lay-verify="required" placeholder="请输入密码" autocomplete="off" class="layui-input">
+                            </div>
+                            <div class="layui-form-mid layui-word-aux">
+                                <a href="" class="">  忘记密码?</a>
+                            </div>
+                        </div>
+
+
+
+
+
+                        <div class="captch">
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">验证</label>
+
+
+                            <div class="layui-input-block">
+                                <div id="c1" ></div>
+                            </div>
+
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">复选框</label>
+                            <div class="layui-input-block">
+                                <input type="checkbox" name="like[dai]" title="记住密码">
+                            </div>
+                        </div>
+
+
+
+                        <div class="layui-form-item">
+                            <div class="layui-input-block">
+                                <button class="layui-btn" lay-submit lay-filter="formDemo">登录</button>
+                                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+
+            </div>
+
+            <!--login end-->
+
+
+
+
+            <!--siderbar right start-->
+
+            <div class="layui-col-md2 hack-right">
+
+                <div class="layui-collapse" lay-accordion>
+                    <div class="layui-colla-item">
+
+                        <h2 class="layui-colla-title">公告</h2>
+                        <div class="layui-colla-content layui-show">sdf</div>
+                    </div>
+                    <div class="layui-colla-item">
+                        <h2 class="layui-colla-title">热门文章</h2>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+
+
+                    </div>
+
+                </div>
+
+                </di>
+
+            </div>
+
+            <!--siderbar right end-->
+
+        </div>
+
+
+        <!---footer-->
+        <div class="layui-footer">
+
+            <ul class="layui-nav">
+
+                <li class="layui-nav-item">                    备案号15451212154</li>
+
+                <li class="layui-nav-item">
+                    <a href="">关于我</a>
+                </li>
+
+                <li class="layui-nav-item">
+                    <a href="">友情链接<span class="layui-badge-dot"></span></a>
+                </li>
+
+
+                <li class="layui-nav-item">
+                    <a href="">反馈<span class="layui-badge-dot"></span></a>
+                </li>
+
+
+            </ul>
+        </div>
+
+</body>
+</html>
+<script src="css/layui/layui.all.js"></script>
+
+<script src="/static/build/layui.js"></script>
+<script src="https://cdn.dingxiang-inc.com/ctu-group/captcha-ui/index.js"></script>
+<script>
+
+    var myCaptcha = _dx.Captcha(document.getElementById('c1'), {
+        appId: '9eb369e65c776c2f3bfaef1d944b3e2a',   //appId,开通服务后可在控制台中“服务管理”模块获取
+        success: function (token) {
+            // console.log('token:', token)
+        }
+    })
+
+    </script>
