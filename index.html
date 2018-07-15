@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="css/layui/css/layui.mobile.css" >
+<link rel="stylesheet" href="css/layui/css/layui.css" media="all">
+
+<link rel="stylesheet" href="css/main.css">
+<body>
+
+
+
+
+    <div class="navbar">
+
+
+        <ul class="layui-nav layui-bg-blue">
+                <label for="to-mune" class="to-mune">菜单</label>
+
+            <input type="checkbox" class="to-mune " id="to-mune" style="display: none">
+
+
+            <li class="layui-nav-item">
+                        <a href="">主页</a>
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href="">标签</a>
+
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;">php是世界最好的</a></dd>
+                            <dd><a href="javascript:;">c</a></dd>
+                            <dd><a href="javascript:;">黑客</a></dd>
+                        </dl>
+
+                    </li>
+                    <li class="layui-nav-item">
+                        <a href=""><img src="img/avatar.jpg" class="layui-nav-img">我</a>
+                        <dl class="layui-nav-child">
+                            <dd><a href="javascript:;">个人中心</a></dd>
+                            <dd><a href="javascript:;">退了</a></dd>
+                        </dl>
+                    </li>
+
+            <li class="layui-nav-item">
+                <a href="">消息</a>
+            </li>
+
+
+            <li class="layui-nav-item">
+                <a href="">搜索</a>
+                <dl class="layui-nav-child">
+                <dd>
+                    <form class="layui-form layui-form-pane" action="">
+
+                        <input type="text" name="title" required lay-verify="required" placeholder="随便搜点什么吧" autocomplete="off" class="layui-input" id="hacker-search">
+                        <button class="layui-btn" style="width: 100%">搜索</button>
+                    </form>
+                </dd>
+
+
+                </dl>
+            </li>
+
+            
+
+
+
+
+
+                        <li class="layui-nav-item login" >
+                 <a href="">登录</a>
+             </li>
+
+
+
+         </ul>
+
+
+
+
+
+
+
+
+    <div class="layui-container ">
+
+        <div class="layui-row ">
+
+
+
+            <div class="layui-col-md9">
+
+                <!---focus start-->
+
+                <div class="layui-carousel" id="focus">
+                    <div carousel-item>
+                        <div><img src="img/01.jpg"></div>
+                        <div><img src="img/02.jpg"></div>
+                        <div><img src="img/03.jpg"></div>
+                        <div><img src="img/04.jpg"></div>
+                        <div><img src="img/06.jpg"></div>
+                    </div>
+                </div>
+
+                    <!---focus end-->
+
+
+                
+
+          <div class="article-list">
+
+
+
+              <!--article start-->
+             <div class="item layui-elem-quote">
+
+                <fieldset class="layui-elem-field layui-field-title">
+                    <legend>hello word</legend>
+
+                <div class="status">
+
+                    <div class="layui-col-md8">
+                        <span class="avatar"><img src="img/avatar.jpg" class="layui-nav-img "></span>
+                    <span class="status layui-badge">闲聊</span>
+                    <span class="status layui-badge">最好</span>
+                        <span class="status layui-badge">闲聊</span>
+                        <span class="status layui-badge">最好</span>
+                        <span class="status layui-badge">闲聊</span>
+                        <span class="status layui-badge">最好</span>
+
+                    </div>
+
+
+                    <div class="layui-col-md4">
+                   <i class="layui-icon layui-icon-username"></i>小小黑
+                        <i class="layui-icon layui-icon-date"></i>9小时缺钱
+                        浏览数:400
+                    </div>
+
+                </div>
+
+                    <div class="layui-field-box article-content">
+                        标题去
+                        闲聊 最好 发布于3小时前
+                        sdfasf asdf ads f sadfassssssssssssss
+                    </div>
+
+
+                   <div class="view-all layui-btn">查看所有</div>
+
+
+                </fieldset>
+
+            </div>
+
+
+              <div class="item layui-elem-quote">
+
+                  <fieldset class="layui-elem-field layui-field-title">
+                      <legend>hello word</legend>
+
+                      <div class="status">
+
+                          <div class="layui-col-md8">
+                              <span class="avatar"><img src="img/avatar.jpg" class="layui-nav-img "></span>
+                              <span class="status layui-badge">闲聊</span>
+                              <span class="status layui-badge">最好</span>
+                              <span class="status layui-badge">闲聊</span>
+                              <span class="status layui-badge">最好</span>
+                              <span class="status layui-badge">闲聊</span>
+                              <span class="status layui-badge">最好</span>
+
+                          </div>
+
+
+                          <div class="layui-col-md4">
+                              <i class="layui-icon layui-icon-username"></i>小小黑
+                              <i class="layui-icon layui-icon-date"></i>9小时缺钱
+                              浏览数:400
+                          </div>
+
+                      </div>
+
+                      <div class="layui-field-box article-content">
+                          标题去
+                          闲聊 最好 发布于3小时前
+                          sdfasf asdf ads f sadfassssssssssssss
+                      </div>
+
+
+                      <div class="view-all layui-btn">查看所有</div>
+
+
+                  </fieldset>
+
+              </div>
+
+
+              <div class="item layui-elem-quote">
+
+                  <fieldset class="layui-elem-field layui-field-title">
+                      <legend>hello word</legend>
+
+                      <div class="status">
+
+                          <div class="layui-col-md8">
+                              <span class="avatar"><img src="img/avatar.jpg" class="layui-nav-img "></span>
+                              <span class="status layui-badge">闲聊</span>
+                              <span class="status layui-badge">最好</span>
+                              <span class="status layui-badge">闲聊</span>
+                              <span class="status layui-badge">最好</span>
+                              <span class="status layui-badge">闲聊</span>
+                              <span class="status layui-badge">最好</span>
+
+                          </div>
+
+
+                          <div class="layui-col-md4">
+                              <i class="layui-icon layui-icon-username"></i>小小黑
+                              <i class="layui-icon layui-icon-date"></i>9小时缺钱
+                              浏览数:400
+                          </div>
+
+                      </div>
+
+                      <div class="layui-field-box article-content">
+                          标题去
+                          闲聊 最好 发布于3小时前
+                          sdfasf asdf ads f sadfassssssssssssss
+                      </div>
+
+
+                      <div class="view-all layui-btn">查看所有</div>
+
+
+                  </fieldset>
+
+              </div>
+
+
+
+              <!--article end-->
+
+          </div>
+
+            </div>
+
+
+
+
+
+
+            <div class="layui-col-md2 hack-right">
+
+
+                <div class="layui-collapse" lay-accordion>
+                    <div class="layui-colla-item">
+
+                        <h2 class="layui-colla-title">公告</h2>
+                        <div class="layui-colla-content layui-show">sdf</div>
+                    </div>
+                    <div class="layui-colla-item">
+                        <h2 class="layui-colla-title">热门文章</h2>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+                        <div class="layui-colla-content layui-show">内容区域</div>
+
+
+
+                    </div>
+
+            </div>
+
+            </di>
+
+            </div>
+
+
+</div>
+        <!---footer-->
+            <div class="layui-footer">
+
+                <ul class="layui-nav">
+
+                    <li class="layui-nav-item">                    备案号15451212154</li>
+
+                    <li class="layui-nav-item">
+                        <a href="">关于我</a>
+                    </li>
+
+                    <li class="layui-nav-item">
+                        <a href="">友情链接<span class="layui-badge-dot"></span></a>
+                    </li>
+
+
+                    <li class="layui-nav-item">
+                        <a href="">反馈<span class="layui-badge-dot"></span></a>
+                    </li>
+
+
+                </ul>
+            </div>
+
+</body>
+</html>
+<script src="css/layui/layui.all.js"></script>
+
+<script src="/static/build/layui.js"></script>
+
+<script>
+//focus config
+    layui.use('carousel', function(){
+        var carousel = layui.carousel;
+        carousel.render({
+            elem: '#focus'
+            ,width: '100%' //设置容器宽度
+           ,arrow: 'always' //始终显示箭头
+        });
+    });
+</script>
